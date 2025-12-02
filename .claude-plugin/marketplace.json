@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "ash-vibez",
-      "source": ".",
+      "source": "./",
       "description": "Agent guidance for creating and building Ash Framework applications",
       "version": "0.1.0"
     }
