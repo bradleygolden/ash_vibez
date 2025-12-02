@@ -42,9 +42,3 @@ https://raw.githubusercontent.com/bradleygolden/ash_vibez/main/llms.txt
 ## For Humans
 
 If you're a developer, you can browse the `docs/` directory directly or visit [ash-hq.org](https://ash-hq.org) for the official Ash Framework documentation.
-
-## Current Coverage
-
-- **New Project Creation**: How to scaffold new Ash projects using the Ash HQ installer or Igniter CLI
-- **Extensions**: Available Ash extensions and how to discover more dynamically
-- **Usage Rules**: Install the `usage_rules` library to get package-author guidance for existing projects
