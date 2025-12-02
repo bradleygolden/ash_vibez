@@ -107,68 +107,8 @@ Common extensions:
 
 For the complete list of extensions and how to discover more, see [Extensions](extensions.md).
 
-## Post-Setup Verification
-
-After creating the project, verify the setup:
-
-```bash
-# Fetch dependencies
-mix deps.get
-
-# Compile (should complete without errors)
-mix compile
-
-# Start interactive console
-iex -S mix
-```
-
-### For Projects with Postgres
-
-```bash
-# Create database
-mix ash.setup
-
-# Or manually
-mix ecto.create
-mix ash.migrate
-```
-
-### Test Basic Operations
-
-In `iex -S mix`, you can verify Ash is working:
-
-```elixir
-# List configured domains
-Application.get_env(:my_app, :ash_domains)
-```
-
-## Project Structure
-
-After creation, your project will have:
-
-```
-my_app/
-├── lib/
-│   ├── my_app/           # Your Ash resources and domains go here
-│   └── my_app.ex         # Application module
-├── config/
-│   └── config.exs        # Includes Ash domain configuration
-├── mix.exs               # Dependencies including Ash
-└── test/
-```
-
-## Gotchas
-
-- **Archive installation**: The `mix archive.install` commands only need to run once per Elixir installation, not per project
-- **Phoenix version**: Ensure your `phx_new` archive is compatible with your Elixir version
-- **Database setup**: Projects with `ash_postgres` require running `mix ash.setup` before use
-- **Domain configuration**: Ash domains must be listed in `config :my_app, :ash_domains, [...]`
-
 ## Next Steps
 
 After creating your project:
 
-1. Define your first domain in `lib/my_app/`
-2. Create resources within that domain
-3. Configure the data layer if using persistence
-4. Generate migrations with `mix ash.codegen`
+Research the necessary [usage rules](https://raw.githubusercontent.com/bradleygolden/ash_vibez/refs/heads/main/docs/usage-rules.md)
