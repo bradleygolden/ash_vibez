@@ -1,0 +1,15 @@
+{
+  "name": "ash-vibez",
+  "owner": {
+    "name": "Bradley Golden",
+    "url": "https://github.com/bradleygolden"
+  },
+  "plugins": [
+    {
+      "name": "ash-vibez",
+      "source": ".",
+      "description": "Agent guidance for creating and building Ash Framework applications",
+      "version": "0.1.0"
+    }
+  ]
+}

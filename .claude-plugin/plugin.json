@@ -1,0 +1,9 @@
+{
+  "name": "ash-vibez",
+  "version": "0.1.0",
+  "description": "Agent guidance for creating and building Ash Framework applications",
+  "author": "Bradley Golden",
+  "repository": "https://github.com/bradleygolden/ash_vibez",
+  "license": "MIT",
+  "keywords": ["ash", "elixir", "phoenix", "framework"]
+}

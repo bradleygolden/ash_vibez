@@ -8,7 +8,9 @@ This repository provides structured guidance that AI agents can fetch and follow
 
 ## Usage
 
-### Option 1: Add to your AGENTS.md or CLAUDE.md
+### Option 1: Add to your AGENTS.md
+
+Adds this to your `AGENTS.md` (or `CLAUDE.md`):
 
 ```markdown
 ## Ash Framework
@@ -23,6 +25,16 @@ When working with Ash Framework, fetch the guidance documentation:
 ### Option 2: Direct instruction
 
 > "Fetch https://raw.githubusercontent.com/bradleygolden/ash_vibez/main/llms.txt for Ash Framework guidance"
+
+### Option 3: Claude Code Plugin
+
+```
+claude
+/plugin marketplace add bradleygolden/ash_vibez
+/plugin install ash-vibez@ash-vibez
+```
+
+> "Create an ash project...."
 
 ## For Agents
 
