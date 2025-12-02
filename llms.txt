@@ -1,0 +1,17 @@
+# Ash Vibez
+
+> Agent guidance for creating and building Ash Framework applications.
+
+This documentation is optimized for AI agents. Fetch the linked documents to get detailed instructions.
+
+## Creating New Projects
+
+- [New Project](https://raw.githubusercontent.com/bradleygolden/ash_vibez/main/docs/new-project.md): Create a new Ash project using the Ash HQ installer or Igniter CLI
+
+## Extensions & Packages
+
+- [Extensions](https://raw.githubusercontent.com/bradleygolden/ash_vibez/main/docs/extensions.md): Available Ash extensions and how to discover more
+
+## Tools
+
+- [Usage Rules](https://raw.githubusercontent.com/bradleygolden/ash_vibez/main/docs/usage-rules.md): Install usage_rules to get package-author guidance for existing Ash projects
